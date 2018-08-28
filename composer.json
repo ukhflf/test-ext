@@ -20,9 +20,6 @@
 	},
 	
 	"extra" : {
-		"branch-alias" : {
-			"dev-master" : "0.0.1"
-		},
 		"laravel" : {
 			"providers" : [
 				"Ukhflf\\Testext\\TestServiceProvider"
