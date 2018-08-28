@@ -1,0 +1,33 @@
+{
+	"name" : "ukhflf/test-ext",
+	"description" : "test laravel extention",
+	"type" : "composer-plugin",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "ukhflf",
+			"email" : "zdkmyheart1990@163.com"
+		}
+	],
+	"minimum-stability" : "dev",
+	
+	"autoload" : {
+		"psr-4" : {
+			"Ukhflf\\Testext\\" : "src/"
+		},
+		"files" : [
+			"src/helpers.php"
+		]
+	},
+	
+	"extra" : {
+		"branch-alias" : {
+			"dev-master" : "0.0.1"
+		},
+		"laravel" : {
+			"providers" : [
+				"Ukhflf\\Testext\\TestServiceProvider"
+			]
+		}
+	}
+	
+}
