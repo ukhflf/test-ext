@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Tinker;
+namespace Ukhflf\Testext;
 
 use Illuminate\Support\ServiceProvider;
 
