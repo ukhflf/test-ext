@@ -1,7 +1,6 @@
 {
 	"name" : "ukhflf/test-ext",
 	"description" : "test laravel extention",
-	"type" : "composer-plugin",
 	"license" : "MIT",
 	"authors" : [{
 			"name" : "ukhflf",
